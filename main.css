@@ -1,0 +1,74 @@
+:root {
+    --font-fam01: 'Alkalami', serif;
+    --font-fam02: 'Poppins', sans-serif;
+    --font-fam03: 'Risque', cursive;
+    --font-fam04: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7.5%;
+    width: 320px;
+    margin-left: 38%;
+}
+
+
+.icn img  {
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 260px;
+    padding-top: 20px;
+    align-self: center;
+}
+
+.icn {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.icn h2 {
+    font-size: 1em;
+    font-weight: 600;
+    padding-top: 20px;
+    font-family: var(--font-fam02);
+}
+
+
+.icn h4 {
+    padding-top: 20px;
+    font-family: var(--font-fam02);
+    font-size: 0.7em;
+    opacity: 0.6;
+    padding-bottom: 30px;
+}
+
+@media (max-width:640px) {
+
+    .container {
+        margin-left: 20% ;
+        margin-top: 15%;
+    }
+}
+
+
+
